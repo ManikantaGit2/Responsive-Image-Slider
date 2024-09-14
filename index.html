@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Slider</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="srinivas.jpeg" id="content1" class="active"/>
+            <img src="uma.jpg" id="content2"/>
+            <img src="lasya.jpeg" id="content3"/>
+            <img src="varshini.jpeg" id="content4"/>
+            <img src="nitya.jpeg" id="content5"/>
+            <img src="prajawal.jpeg" id="content6"/>
+            <img src="teja.jpeg" id="content7"/>
+            <img src="rudra.jpeg" id="content8"/>
+            <img src="devansh.jpeg" id="content9"/>
+            <img src="vindyasridurga.jpeg" id="content10"/>
+        </div>
+        <div class="dot-container">
+            <button onclick="dot(1)">S</button>
+            <button onclick="dot(2)">U</button>
+            <button onclick="dot(3)">L</button>
+            <button onclick="dot(4)">V</button>
+            <button onclick="dot(5)">N</button>
+            <button onclick="dot(6)">P</button>
+            <button onclick="dot(7)">T</button>
+            <button onclick="dot(8)">R</button>
+            <button onclick="dot(9)">D</button>
+            <button onclick="dot(10)">VS</button>
+        </div>
+        <button id="prev" onclick="prev()"> &lt;</button>
+        <button id="next" onclick="next()"> &gt;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
